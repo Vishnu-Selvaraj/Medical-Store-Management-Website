@@ -1,0 +1,30 @@
+#SignupBody{
+    background:url('/src/images/img8.jpg') no-repeat fixed;
+    background-position: start;
+    background-size: cover;
+    height: 100vh;
+}
+
+#signupCard{
+    border-radius: 15px;
+    background-color: hsl(0, 0%,5%,0.2);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+#signupCard input{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    color: #fff;
+}
+
+#signupCard input::placeholder{
+    color: #ffffff41;
+}
+
+h1{
+    color: lightblue;
+}
+
+label{
+    color: #fff;
+}

@@ -1,0 +1,60 @@
+#listBody{
+    background: #f3f7fb;
+    height: 100vh;
+}
+
+#CreateBody,#editbody{
+    background-color: #f3f7fb;;
+    height: 100vh;
+}
+
+#EditCard{
+    border: none;
+    box-shadow: 1px 1px 10px #111;
+}
+
+#CreateCard{
+    border: none;
+    box-shadow: 1px 1px 10px #605f5f;
+}
+
+#CreateCard input{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+}
+
+#CreateCard input::placeholder{
+    color: #00000041;
+    font-weight: 500;
+}
+
+#EditCard input{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    color: #fff;
+}
+
+#addBtn,#searchComponent{
+    animation: btnTrans 1s;
+}
+
+#listCardHeader{
+    animation: btnTrans 1.5s;
+}
+
+#listCards{
+    animation: btnTrans 2.5s;
+}
+
+@keyframes btnTrans {
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
