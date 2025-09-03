@@ -37,8 +37,8 @@ function App() {
               className="text-center"
               style={{ position: "absolute", top: "50%", right: "10%" }}
             >
-              <h1 className="text-info" id="sideContents">Welcome to Medscart</h1>
-              <button id="sideBtn" onClick={handleRedirect} className="btn btn-success">Order Now</button>
+              <h1 className="text-info" id="sideContents">Welcome to MediCart seller platform</h1>
+              <button id="sideBtn" onClick={handleRedirect} className="btn btn-success">Sell Medicines</button>
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ function Navbar() {
     <div>
       <nav className="navbar navbar-expand-sm navbar-dark" style={{backgroundColor:'#32aeb1'}}>
         <NavLink className="navbar-brand" to="/">
-          Medscart
+          MediCart
         </NavLink>
         <button
           className="navbar-toggler"
